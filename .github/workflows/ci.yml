@@ -1,0 +1,31 @@
+name: Verificación Windows
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  rust:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: pwsh
+        working-directory: app
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Preparar toolchain
+        run: |
+          rustup toolchain install 1.94.1 --profile minimal --component rustfmt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Formato
+        run: cargo +1.94.1 fmt --check
+      - name: Pruebas
+        run: cargo +1.94.1 test --release --locked
+      - name: Build
+        run: cargo +1.94.1 build --release --locked

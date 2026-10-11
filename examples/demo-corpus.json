@@ -1,0 +1,336 @@
+{
+  "documents": [
+    [
+      "pets",
+      "Contrato departamento Alameda",
+      "Se permite al arrendatario convivir con un perro o un gato. Debe pagar un depósito adicional y reparar los daños causados por el animal."
+    ],
+    [
+      "no-pets",
+      "Contrato oficina Central",
+      "Queda prohibido introducir animales en las oficinas. La renta se paga el primer día de cada mes."
+    ],
+    [
+      "invoice-a",
+      "Factura F-1042",
+      "Venta de veinte paneles solares a Industrias Luna. Total 48500 pesos. Vencimiento 15 de noviembre."
+    ],
+    [
+      "invoice-b",
+      "Factura F-1043",
+      "Venta de veinte paneles solares a Industrias Luna. Total 48500 pesos. Vencimiento 15 de diciembre."
+    ],
+    [
+      "backup",
+      "Procedimiento de respaldo",
+      "Cada noche se copia la base de datos a un disco externo. La restauración se verifica los viernes. Conservar treinta versiones diarias."
+    ],
+    [
+      "restore",
+      "Recuperación de archivos eliminados",
+      "Los documentos borrados se recuperan desde la papelera durante treinta días. Después se requiere solicitar una copia al administrador."
+    ],
+    [
+      "retry",
+      "network.py",
+      "def retry_request(call):\n    for attempt in range(4):\n        try: return call()\n        except TimeoutError: time.sleep(2 ** attempt)"
+    ],
+    [
+      "refund",
+      "Política de devoluciones",
+      "El cliente puede solicitar el reintegro del importe durante catorce días si el producto conserva su empaque. El abono aparece en la tarjeta original."
+    ],
+    [
+      "warranty",
+      "Garantía de productos",
+      "Los defectos de fabricación se reparan durante doce meses. No cubre golpes, humedad ni desgaste normal."
+    ],
+    [
+      "hotel",
+      "Reserva de viaje",
+      "Alojamiento en Chicago del 12 al 16 de diciembre. Confirmación K7Q2LM. El desayuno está incluido y el registro comienza a las 15 horas."
+    ],
+    [
+      "flight",
+      "Itinerario de vuelo",
+      "Vuelo de Monterrey a Madrid con escala en Ciudad de México. Salida a las 21:30 del 8 de noviembre. Equipaje permitido de 23 kilogramos."
+    ],
+    [
+      "vegan",
+      "Receta de hamburguesas",
+      "Triturar lentejas cocidas con avena, cebolla y comino. Formar discos y dorar en sartén. La preparación no contiene ingredientes de origen animal."
+    ],
+    [
+      "chicken",
+      "Receta de pollo asado",
+      "Marinar muslos de pollo con limón y ajo. Hornear a 190 grados durante cuarenta minutos."
+    ],
+    [
+      "meeting",
+      "Acta de reunión comercial",
+      "Ana presentará el presupuesto revisado el jueves. Se aplaza el lanzamiento dos semanas porque falta la autorización del cliente."
+    ],
+    [
+      "password",
+      "Acceso a la cuenta",
+      "Si olvidaste tu contraseña, solicita un enlace de recuperación por correo. El enlace vence después de quince minutos."
+    ],
+    [
+      "access",
+      "Acceso al edificio",
+      "La tarjeta de entrada permite abrir la puerta del estacionamiento. Los visitantes deben registrarse con vigilancia."
+    ],
+    [
+      "payment",
+      "Captura de error de pago",
+      "La transacción fue rechazada. El banco emisor indicó fondos insuficientes. Intente con otro medio de pago."
+    ],
+    [
+      "network-error",
+      "Registro de conexión",
+      "La conexión al servidor agotó el tiempo de espera. Error ETIMEDOUT al intentar abrir el puerto 443."
+    ],
+    [
+      "gym",
+      "Rutina de entrenamiento",
+      "Lunes: sentadilla y peso muerto. Miércoles: remo y dominadas. Viernes: press de banca. Aumentar cargas gradualmente."
+    ],
+    [
+      "garden",
+      "Guía de plantas",
+      "La albahaca necesita luz y riego moderado. Evitar que el agua se acumule en las raíces."
+    ],
+    [
+      "budget",
+      "Presupuesto oficina",
+      "Se asignan 12000 pesos a mobiliario, 8000 a computadoras y 3000 a material de papelería. La compra requiere autorización."
+    ],
+    [
+      "sleep",
+      "Nota de entrevista",
+      "La especialista recomienda acostarse a la misma hora y evitar cafeína por la tarde para descansar mejor durante la noche."
+    ],
+    [
+      "english",
+      "Delivery terms",
+      "Orders are shipped within two business days. Free delivery applies to purchases above fifty dollars. International shipping takes longer."
+    ],
+    [
+      "spanish",
+      "Manual de montaje",
+      "Antes de ensamblar la estantería, separar tornillos y verificar las piezas. Fijar la estructura a la pared para evitar vuelcos."
+    ],
+    [
+      "year",
+      "Informe del año",
+      "El resumen anual compara ventas de enero a diciembre de 2025 con las del año anterior."
+    ],
+    [
+      "medical",
+      "Anatomía digestiva",
+      "El recto constituye el tramo final del intestino grueso y desemboca en el ano."
+    ],
+    [
+      "cancel",
+      "Cancelación de suscripción",
+      "Puedes dar de baja la renovación automática desde tu perfil. El acceso permanece activo hasta concluir el período pagado."
+    ],
+    [
+      "insurance",
+      "Póliza del vehículo",
+      "La cobertura incluye robo total, daños a terceros y asistencia vial. El deducible para colisión es del cinco por ciento."
+    ],
+    [
+      "school",
+      "Calendario escolar",
+      "Las clases comienzan el 19 de agosto. Las vacaciones de invierno inician el 20 de diciembre."
+    ],
+    [
+      "export",
+      "Exportación de reportes",
+      "Para descargar las ventas en una hoja de cálculo, abrir Reportes, seleccionar el intervalo y pulsar Exportar XLSX."
+    ],
+    [
+      "upload",
+      "Carga de documentos",
+      "Puedes adjuntar archivos PDF de hasta diez megabytes. Arrastra el documento al recuadro y espera la confirmación."
+    ],
+    [
+      "secret",
+      "Rotación de credenciales",
+      "Las claves de servicio deben renovarse cada noventa días y guardarse en el almacén seguro. No incluir credenciales en el repositorio."
+    ]
+  ],
+  "queries": [
+    [
+      "¿En qué alquiler puedo vivir con mi mascota?",
+      "pets"
+    ],
+    [
+      "contrato que prohíbe mascotas",
+      "no-pets"
+    ],
+    [
+      "F-1042",
+      "invoice-a"
+    ],
+    [
+      "F-1043",
+      "invoice-b"
+    ],
+    [
+      "factura de paneles que vence en diciembre",
+      "invoice-b"
+    ],
+    [
+      "cómo se guardan copias de la base de datos todas las noches",
+      "backup"
+    ],
+    [
+      "recuperar un documento que borré",
+      "restore"
+    ],
+    [
+      "función que vuelve a intentar una llamada con espera exponencial",
+      "retry"
+    ],
+    [
+      "quiero que me regresen el dinero de mi compra",
+      "refund"
+    ],
+    [
+      "qué pasa si el producto viene con un defecto de fábrica",
+      "warranty"
+    ],
+    [
+      "K7Q2LM",
+      "hotel"
+    ],
+    [
+      "hotel con desayuno en Chicago",
+      "hotel"
+    ],
+    [
+      "a qué hora despega mi avión a Madrid",
+      "flight"
+    ],
+    [
+      "comida sin carne hecha con legumbres",
+      "vegan"
+    ],
+    [
+      "cómo cocinar muslos al horno",
+      "chicken"
+    ],
+    [
+      "por qué retrasamos el lanzamiento",
+      "meeting"
+    ],
+    [
+      "perdí la contraseña de mi usuario",
+      "password"
+    ],
+    [
+      "tarjeta para entrar al estacionamiento",
+      "access"
+    ],
+    [
+      "captura donde el banco no aceptó el cobro",
+      "payment"
+    ],
+    [
+      "ETIMEDOUT",
+      "network-error"
+    ],
+    [
+      "ejercicios de espalda para el miércoles",
+      "gym"
+    ],
+    [
+      "cómo cuidar la albahaca",
+      "garden"
+    ],
+    [
+      "dinero aprobado para comprar computadoras",
+      "budget"
+    ],
+    [
+      "consejos para dormir mejor",
+      "sleep"
+    ],
+    [
+      "cuándo es gratis el envío de una compra",
+      "english"
+    ],
+    [
+      "how to secure the shelf to prevent it from falling",
+      "spanish"
+    ],
+    [
+      "informe del año 2025",
+      "year"
+    ],
+    [
+      "anatomía del ano",
+      "medical"
+    ],
+    [
+      "dejar de pagar la renovación de la suscripción",
+      "cancel"
+    ],
+    [
+      "seguro que cubre un auto robado",
+      "insurance"
+    ],
+    [
+      "cuándo vuelven los niños a clases",
+      "school"
+    ],
+    [
+      "descargar las ventas como Excel",
+      "export"
+    ],
+    [
+      "subir un PDF de diez megas",
+      "upload"
+    ],
+    [
+      "cada cuánto rotar las credenciales de servicio",
+      "secret"
+    ],
+    [
+      "¿Quién presenta el presupuesto el jueves?",
+      "meeting"
+    ],
+    [
+      "when will my delivery be dispatched",
+      "english"
+    ],
+    [
+      "cómo restaurar la copia de seguridad",
+      "backup"
+    ],
+    [
+      "la renta donde aceptan un gato pagando un depósito",
+      "pets"
+    ],
+    [
+      "qué garantía protege frente a golpes",
+      "warranty"
+    ],
+    [
+      "what happens when my payment is declined for insufficient funds",
+      "payment"
+    ]
+  ],
+  "negatives": [
+    "manual de reparación del motor de una nave espacial",
+    "resultados del partido de béisbol de ayer",
+    "contraseña exacta de mi banco",
+    "factura F-9999",
+    "fotografía de un elefante azul",
+    "tratamiento de la migraña",
+    "lista de empleados despedidos",
+    "predicción del precio del bitcoin"
+  ]
+}
